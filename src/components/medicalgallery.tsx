@@ -17,7 +17,7 @@ const medicationImages = [
     {
         url: "https://images.pexels.com/photos/5207341/pexels-photo-5207341.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
         title: "HIV Treatment Support",
-        description: "Managing multiple medications and supplements for comprehensive HIV care",
+        description: "Managing multiple medications and supplements for comprehensive HIv care",
         span: "col-span-2"
     },
     {
