@@ -24,11 +24,12 @@ export default function Home() {
       <section id="gallery">
       <MedicalGallery/>
       </section>
-       <section id="faqs">
-      <Faqs/>
-      </section>
+       
        <section id="adherenceChart">
       <AdherenceChart/>
+      </section>
+      <section id="faqs">
+      <Faqs/>
       </section>
       {/* <section id="testimonials">
       <Textimonials/> */}
