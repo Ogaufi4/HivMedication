@@ -3,29 +3,36 @@ import React, { useEffect, useRef, useState } from 'react';
 
 const medicationImages = [
     {
-        url: "https://images.pexels.com/photos/8385316/pexels-photo-8385316.jpeg?auto=compress&cs=tinysrgb&w=600",
+        url: "https://images.pexels.com/photos/5723609/pexels-photo-5723609.jpeg?auto=compress&cs=tinysrgb&w=400",
         title: "HIV Treatment Planning",
         description: "Organizing daily antiretroviral therapy (ART) medications for optimal adherence",
         span: "col-span-2"
     },
     {
-        url: "https://images.pexels.com/photos/5207367/pexels-photo-5207367.jpeg?auto=compress&cs=tinysrgb&w=600",
+        url: "https://images.pexels.com/photos/4021808/pexels-photo-4021808.jpeg?auto=compress&cs=tinysrgb&w=400",
         title: "ART Medication Routine",
         description: "Taking prescribed antiretroviral medications consistently to maintain viral suppression",
         span: "row-span-2"
     },
     {
-        url: "https://images.pexels.com/photos/8395812/pexels-photo-8395812.jpeg?auto=compress&cs=tinysrgb&w=600",
+        url: "https://images.pexels.com/photos/5207341/pexels-photo-5207341.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
         title: "HIV Treatment Support",
         description: "Managing multiple medications and supplements for comprehensive HIV care",
         span: "col-span-2"
     },
     {
-        url: "https://images.pexels.com/photos/7195041/pexels-photo-7195041.jpeg?auto=compress&cs=tinysrgb&w=600",
+        url: "https://images.pexels.com/photos/5712682/pexels-photo-5712682.jpeg?auto=compress&cs=tinysrgb&w=400",
+        title: "HIV Care Team",
+        description: "Working with healthcare providers to monitor treatment effectiveness and manage side effects",
+        span: "row-span-2 col-span-2"
+    },
+    {
+        url: "https://images.pexels.com/photos/7208641/pexels-photo-7208641.jpeg?auto=compress&cs=tinysrgb&w=400",
         title: "HIV Care Team",
         description: "Working with healthcare providers to monitor treatment effectiveness and manage side effects",
         span: "row-span-2 col-span-2"
     }
+    ,
 ];
 
 export default function MedicationGallery() {
